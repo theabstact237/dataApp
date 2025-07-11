@@ -1,0 +1,9 @@
+Python 3.7+
+- Streamlit
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Plotly
+- OpenPyXL
+- SQLAlchemy
