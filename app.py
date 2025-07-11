@@ -31,7 +31,9 @@ def add_author_info():
         st.markdown("### About the Author")
         
         # Load and display profile image
-        st.image("/home/ubuntu/data_analytics_app/karl_siaka_profile.jpg", width=150)
+        import os
+        image_path = os.path.join(os.path.dirname(__file__), "karl_siaka_profile.jpg")
+        st.image(image_path, width=150)
         
         # Author info
         st.markdown("**Built by Karl Siaka**")
